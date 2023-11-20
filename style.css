@@ -634,7 +634,7 @@ footer ul li a {
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1120px;
+    max-width: 1220px;
     margin: 0 auto;
   }
 
@@ -664,7 +664,7 @@ footer ul li a {
   .home .home-text {
     max-width: 90rem;
     margin-top: 10rem;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
   }
   .home .home-text h1 {
     font-size: 6.1rem;
@@ -774,6 +774,6 @@ footer ul li a {
     gap: 20rem;
   }
   .footer-part {
-    gap: 30rem;
+    gap: 40rem;
   }
 }
