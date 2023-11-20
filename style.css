@@ -700,6 +700,9 @@ footer ul li a {
     padding: 2rem 5rem;
   }
 
+  .statistic-cards{
+    margin-top: 5rem;
+  }
   .statistics h2 {
     font-size: 5rem;
   }
@@ -747,10 +750,13 @@ footer ul li a {
     display: flex;
     flex-direction: row;
     column-gap: 25rem;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 900px;
   }
 
   footer ul li a {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     width: 10rem;
   }
 
@@ -764,9 +770,9 @@ footer ul li a {
 
   .left-part {
     width: 60rem;
-    gap: 15rem;
+    gap: 20rem;
   }
   .footer-part {
-    gap: 48rem;
+    gap: 40rem;
   }
 }
