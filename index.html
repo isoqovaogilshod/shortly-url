@@ -65,15 +65,18 @@
     <main>
       <div class="gray-bg">
         <div class="url-part container">
-          <input type="text" placeholder="Shorten a link here..." />
-          <button>Shorten It!</button>
+          <input type="text" id="input" placeholder="Shorten a link here..." />
+          <button id="shortenBtn">Shorten It!</button>
         </div>
-        <div class="short-urls container">
+        <div class="short-urls container" id="shortUrls">
           <div class="short-url">
-            <h3>Lorem, ipsum dolor.</h3>
-            <div>
-              <h3><a href="#">Lorem, ipsum dolor.</a></h3>
-              <button class="btn"></button>
+            <h3 id="link">Lorem, ipsum dolor.</h3>
+            <div class="line"></div>
+            <div class="link-btn">
+              <h3 class="blue-link" id="shortLink">
+                <a href="#">Lorem, ipsum dolor.</a>
+              </h3>
+              <button class="btn" id="copyBtn">Copy</button>
             </div>
           </div>
         </div>
